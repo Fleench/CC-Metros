@@ -1,1 +1,2 @@
-shell.run("exit")
+shell.setDir("/metros/sys/startup")
+shell.run("startup")
