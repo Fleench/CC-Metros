@@ -22,7 +22,7 @@ while true do
     print("1. V1.0 Arctur")
     option = io.read()
     if option == "1." then
-    shell.run("wget", "url for arctur")
+    shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/metros")
     break
     end
 end
