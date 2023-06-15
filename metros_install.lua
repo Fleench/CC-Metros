@@ -19,7 +19,7 @@ while true do
     term.clear()
     term.setCursorPos(1,1)
     term.setTextColor(4)
-    print("What version of metrosSHELL do you want to install?"\n)
+    print("What version of metrosSHELL do you want to install?\n")
     term.setTextColor(1)
     print("1. V1.0 Arctur")
   option = io.read()
