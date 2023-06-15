@@ -30,4 +30,4 @@ while true do
 end
 shell.run("wget", "https://raw.githubusercontent.com/LDDestroier/CC/master/progdor2.lua")
 shell.run("progdor2","-o","metros","/metros")
-shell.run("wget", "")
+shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/startup.lua")
