@@ -15,12 +15,14 @@ end
 print("Wipping Device")
 shell.setDir("/")
 shell.run("rm","/*")
-print("What version of metrosSHELL do you want to install?")
 while true do
     term.clear()
     term.setCursorPos(1,1)
+    term.setTextColor(4)
+    print("What version of metrosSHELL do you want to install?"\n)
+    term.setTextColor(1)
     print("1. V1.0 Arctur")
-    option = io.read()
+  option = io.read()
     if option == "1." then
     shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/metros")
     break
