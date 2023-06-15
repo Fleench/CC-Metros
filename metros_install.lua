@@ -23,7 +23,7 @@ while true do
     term.setTextColor(1)
     print("1. V1.0 Arctur")
   option = io.read()
-    if option == "1." then
+    if option == "1" then
     shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/metros")
     break
     end
