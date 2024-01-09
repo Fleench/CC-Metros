@@ -29,6 +29,7 @@ while true do
     break
     if option == "0" then
     shell.run("wget https://raw.githubusercontent.com/Fleench/CC-Metros/main/LatestSnapShot metros")
+    break
     end
 end
 shell.run("wget", "https://raw.githubusercontent.com/LDDestroier/CC/master/progdor2.lua")
