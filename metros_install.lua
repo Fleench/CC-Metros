@@ -24,11 +24,11 @@ while true do
     print("0. Latest Dev Snapshot")
     print("1. V1.0 Arctur")
   option = io.read()
-    if option == "1" then:
+    if option == "1" then
       shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/metros")
       break
   end
-    elseif option == "0" then:
+    elseif option == "0" then
       shell.run("wget https://raw.githubusercontent.com/Fleench/CC-Metros/main/LatestSnapShot metros")
       break
     end
