@@ -27,10 +27,10 @@ while true do
     if option == "1" then
     shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/metros")
     break
-    elseif option == "0" then
+  elseif option == "0" then
     shell.run("wget https://raw.githubusercontent.com/Fleench/CC-Metros/main/LatestSnapShot metros")
     break
-    end
+  end
 end
 shell.run("wget", "https://raw.githubusercontent.com/LDDestroier/CC/master/progdor2.lua")
 shell.run("progdor2.lua","-o","metros","/metros")
