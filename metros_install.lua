@@ -21,11 +21,14 @@ while true do
     term.setTextColor(4)
     print("What version of metrosSHELL do you want to install?")
     term.setTextColor(1)
+    print("0. Latest Dev Snapshot")
     print("1. V1.0 Arctur")
   option = io.read()
     if option == "1" then
     shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/metros")
     break
+    if option == "0" then
+    shell.run("wget https://raw.githubusercontent.com/Fleench/CC-Metros/main/LatestSnapShot metros")
     end
 end
 shell.run("wget", "https://raw.githubusercontent.com/LDDestroier/CC/master/progdor2.lua")
