@@ -27,7 +27,7 @@ while true do
     if option == "1" then
     shell.run("wget", "https://raw.githubusercontent.com/Fleench/CC-Metros/main/metros")
     break
-    if option == "0" then
+    elseif option == "0" then
     shell.run("wget https://raw.githubusercontent.com/Fleench/CC-Metros/main/LatestSnapShot metros")
     break
     end
